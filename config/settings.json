@@ -1,0 +1,12 @@
+{
+    "theme": "dark",
+    "language": "ru",
+    "clipboard_interval": 500,
+    "max_history": 1000,
+    "auto_start": false,
+    "minimize_to_tray": true,
+    "show_notifications": true,
+    "save_duplicates": false,
+    "window_width": 1100,
+    "window_height": 700
+}
