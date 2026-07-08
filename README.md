@@ -1,2 +1,76 @@
 # ClipboardX
-# ClipboardX  > Modern clipboard manager built with **Python** and **PySide6**.  ClipboardX is a fast, lightweight and modern clipboard history manager designed to simplify working with copied text. It automatically stores clipboard history, allows quick searching, favorites, tagging and exporting data through a clean dark interface.  ## ✨ Features  * 📋 Clipboard history * 🔍 Instant search * ⭐ Favorite items * 🏷 Automatic tags * 🗑 Delete individual entries or clear history * 💾 SQLite database * 📤 Export clipboard history * ⚡ Lightweight and fast * 🌙 Modern dark UI * 🎨 Smooth animations  ## 🖥 Screenshot  *Add screenshots here.*  ## 🚀 Installation  ```bash git clone https://github.com/yourusername/ClipboardX.git  cd ClipboardX  pip install -r requirements.txt  python main.py ```  ## 📁 Project Structure  ``` ClipboardX/ │ ├── main.py ├── core/ │   ├── clipboard.py │   ├── database.py │   ├── settings.py │   └── tags.py │ ├── ui/ │   ├── main_window.py │   ├── sidebar.py │   ├── card_widget.py │   └── dialogs.py │ └── clipboard.db ```  ## 🛠 Built With  * Python 3 * PySide6 * SQLite  ## 📌 Roadmap  * [ ] Images support * [ ] File history * [ ] Global hotkeys * [ ] Cloud synchronization * [ ] Plugins * [ ] Multiple themes * [ ] Auto updates  ## 📄 License  This project is released under the MIT License.  ---  Made with ❤️ using Python & PySide6.
+
+> Современный менеджер буфера обмена, созданный на **Python** и **PySide6**.
+
+ClipboardX — это быстрый, лёгкий и современный менеджер истории буфера обмена, который упрощает работу со скопированным текстом. Программа автоматически сохраняет историю, позволяет быстро искать записи, добавлять их в избранное, использовать теги и экспортировать данные через удобный тёмный интерфейс.
+
+## ✨ Возможности
+
+* 📋 История буфера обмена
+* 🔍 Мгновенный поиск
+* ⭐ Избранные записи
+* 🏷 Автоматические теги
+* 🗑 Удаление отдельных записей и очистка истории
+* 💾 База данных SQLite
+* 📤 Экспорт истории буфера обмена
+* ⚡ Лёгкость и высокая скорость работы
+* 🌙 Современный тёмный интерфейс
+* 🎨 Плавные анимации
+
+
+## 🚀 Установка
+
+```bash
+git clone https://github.com/yourusername/ClipboardX.git
+
+cd ClipboardX
+
+pip install -r requirements.txt
+
+python main.py
+```
+
+## 📁 Структура проекта
+
+```
+ClipboardX/
+│
+├── main.py
+├── core/
+│   ├── clipboard.py
+│   ├── database.py
+│   ├── settings.py
+│   └── tags.py
+│
+├── ui/
+│   ├── main_window.py
+│   ├── sidebar.py
+│   ├── card_widget.py
+│   └── dialogs.py
+│
+└── clipboard.db
+```
+
+## 🛠 Используемые технологии
+
+* Python 3
+* PySide6
+* SQLite
+
+## 📌 Дорожная карта
+
+* [ ] Поддержка изображений
+* [ ] История файлов
+* [ ] Глобальные горячие клавиши
+* [ ] Облачная синхронизация
+* [ ] Плагины
+* [ ] Несколько тем оформления
+* [ ] Автообновления
+
+## 📄 Лицензия
+
+Этот проект распространяется под лицензией MIT.
+
+---
+
+Сделано с ❤️ на Python и PySide6.
